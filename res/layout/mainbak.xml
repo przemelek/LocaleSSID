@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Can see all SSIDs:" />
+
+    <EditText
+        android:id="@+id/canSeeSSIDsText"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:ems="10" >
+
+        <requestFocus />
+    </EditText>
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Cannot see any of SSIDs:" />
+
+    <EditText
+        android:id="@+id/cannotSeeSSIDsText"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:ems="10" />
+
+    <Button
+        android:id="@+id/saveButton"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Save" />
+
+    <Button
+        android:id="@+id/cancelButton"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Cancel"         
+        />
+
+</LinearLayout>
